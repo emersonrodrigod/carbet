@@ -7,6 +7,19 @@ class IndexController extends Zend_Controller_Action {
     }
 
     public function indexAction() {
+        
+    }
+    
+    public function empresaAction(){
+        
+    }
+    
+    public function produtoAction(){
+        
+    }
+    
+    public function caracteristicasAction(){
+        
     }
 
 }

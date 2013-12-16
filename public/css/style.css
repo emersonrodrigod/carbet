@@ -1,2 +1,74 @@
+.container, .container-fluid{
+    max-width: 980px !important;
+}
 
+body {
+    background: url(/img/fundo.png) no-repeat top;
+}
 
+#header {
+    margin-bottom: 15px;
+}
+
+#nav-container {
+
+}
+
+#logo {
+    float: left;
+    margin-top: 20px;
+}
+
+#nav {
+    float: right;
+    margin-top: 125px;
+}
+
+#nav ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+#nav ul li {
+    float: left;
+    padding: 0px 20px 20px 0px;
+}
+
+#nav ul li a {
+    font-size: 1.4em;
+    color: #363636;
+    font-weight: bold;
+}
+
+#nav ul li a:hover {
+    text-decoration: none;
+    color: #2185E3;
+}
+
+#content {
+    margin-bottom: 15px;
+}
+
+.address {
+    margin-top: 15px;
+}
+.address p {
+    color: #fff;
+    margin:0;
+    padding:0;
+}
+
+.fone img {
+    float: left;
+    text-align: right;
+}
+
+.fone h3 {
+    color: #fff;
+}
+
+.azul {
+    color: #1E86E5;
+}
+
+.f-nav { z-index: 9999; position: fixed; top: 0; }
