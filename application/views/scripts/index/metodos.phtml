@@ -1,0 +1,108 @@
+<div class="container">
+    <div class="row-fluid">
+        <div class="span12">
+            <h2 class="azul" style="text-align: center;">CARBET = FUTURO + SUSTENTABILIDADE</h2>
+
+            <p>
+                A construção com blocos Carbet permite uma obra mais rápida, 
+                com qualidade elevada e economia financeira. 
+            </p>
+
+            <p>
+                Os blocos são utilizados para fechamento das paredes gerando nesse
+                processo um ganho de tempo pois reduz algumas etapas da obra.
+            </p>
+
+            <br/>
+        </div>
+    </div>
+
+    <div class="row-fluid navegacao">
+        <div class="span6">
+            <div class="span12" style="text-align: center;">
+                <a href="#comparativo" id="linkComparativo"><img src="/img/comparativo.png" style="width: 160px; margin-right: 20px;" /></a>
+                <img src="/img/espaco.png" style="width: 160px;" />
+                <a href="#etapas" id="linkEtapas"><img src="/img/etapas.png" style="width: 160px; margin-right: 20px;" /></a>
+            </div>
+        </div>
+
+        <div class="span6 visible-desktop">
+            <img src="/img/menino.jpg" alt="" />
+        </div>
+    </div>
+
+    <div class="row-fluid">
+        <div id="comparativo" style="display: none;">
+            <br/>
+            <hr/>
+
+            <h3>Comparativo</h3>
+            <br/>
+
+
+            <div class="row-fluid">
+                <div class="span12" style="text-align: center;">
+
+                    <img src="/img/tabela.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <div id="etapas" style="display: none;">
+            <br/>
+            <hr/>
+
+            <h3>Etapas</h3>
+
+            <div class="row-fluid">
+                <div class="span6">
+                    <p>
+                        <strong>1ª etapa:</strong> Fundação: similar a obra tradicional
+                    </p>
+
+                    <p>
+                        <strong>2ª etapa:</strong> alvenarias (paredes): a montagem dos blocos é mais rápida, 
+                        e as instalações elétricas e hidráulicas são realizadas simultaneamente 
+                        de acordo com a evolução da obra. 
+                    </p>
+
+                    <p>
+                        <strong>3ª etapa:</strong> laje e cobertura: similar a obra tradicional 
+                    </p>
+
+                    <p>
+                        <strong>4ª etapa:</strong> esquadrias: similar a obra tradicional
+                    </p>  
+
+                    <p>
+                        <strong>5ª etapa:</strong> Acabamentos: é dispensado chapisco, emboço e reboco, indo 
+                        diretamente para massa corrida ou texturas. Durante essa pode ser feito a 
+                        colocação de cerâmicas e pintura. 
+                    </p>
+                </div>
+                
+                <div class="span6">
+                    <img src="/img/construcao.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br/>
+</div>
+
+<script>
+    $("#linkComparativo").click(function() {
+        $("#comparativo").hide();
+        $("#etapas").hide();
+
+        $("#comparativo").toggle("slow");
+    });
+
+    $("#linkEtapas").click(function() {
+        $("#comparativo").hide();
+        $("#etapas").hide();
+
+        $("#etapas").toggle("slow");
+    });
+</script>

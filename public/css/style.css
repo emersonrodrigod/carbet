@@ -1,3 +1,11 @@
+p {
+    font-size: 1.2em !important;
+}
+
+#footer p {
+    font-size: 14px !important;
+}
+
 .container, .container-fluid{
     max-width: 980px !important;
 }
@@ -31,13 +39,12 @@ body {
 
 #nav ul li {
     float: left;
-    padding: 0px 20px 20px 0px;
+    padding: 0px 15px 15px 0px;
 }
 
 #nav ul li a {
-    font-size: 1.4em;
+    font-size: 1.3em;
     color: #363636;
-    font-weight: bold;
 }
 
 #nav ul li a:hover {
@@ -72,3 +79,10 @@ body {
 }
 
 .f-nav { z-index: 9999; position: fixed; top: 0; }
+
+/* para fazer control-rows com labels */
+.control-group {
+    display: inline-block;
+    vertical-align: top;
+
+}

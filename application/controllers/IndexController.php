@@ -21,6 +21,18 @@ class IndexController extends Zend_Controller_Action {
     public function caracteristicasAction(){
         
     }
+    
+    public function franquiaAction(){
+        
+    }
+    
+    public function sejaAction(){
+        
+    }
+    
+    public function metodosAction(){
+        
+    }
 
 }
 
